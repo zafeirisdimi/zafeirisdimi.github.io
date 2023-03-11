@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
+:root {
+	--main-font-color: #fff;
+	--custom-blue-color: #482ff7;
+  }
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -30,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 2;
 }
 
 ol, ul {
@@ -83,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: --main-font-color;
 		overflow: hidden;
 	}
 
@@ -99,7 +103,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: --main-font-color;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -120,6 +124,7 @@ input, select, textarea {
 
 		a:hover {
 			border-color: transparent;
+			color: var(--custom-blue-color);
 		}
 
 /* Icon */
@@ -139,7 +144,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: 500;
 		}
 
 		.icon > .label {
@@ -675,7 +680,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px --main-font-color;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -692,7 +697,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: --main-font-color;
 					}
 
 				#header nav a:active {
@@ -702,7 +707,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: --main-font-color;
 					}
 
 				#header nav a span {
