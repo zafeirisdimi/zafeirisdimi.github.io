@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-:root {
-	--main-font-color: #FFFDFA ;
-	--custom-blue-color: #482ff7;
-  }
+
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -87,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: --main-font-color;
+		background: #FFFDFA;
 		overflow: hidden;
 	}
 
@@ -103,7 +100,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: --main-font-color;
+		color: #FFFDFA;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -680,7 +677,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px --main-font-color;
+					border: solid 1px #FFFDFA;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -697,7 +694,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: --main-font-color;
+						color: #FFFDFA;
 					}
 
 				#header nav a:active {
@@ -707,7 +704,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: --main-font-color;
+						color: #FFFDFA;
 					}
 
 				#header nav a span {
@@ -1094,5 +1091,5 @@ input, select, textarea {
 			
 		}
 		.unordered-style > li {
-			color: var(--custom-blue-color);
+			color: #482ff7;
 		}
