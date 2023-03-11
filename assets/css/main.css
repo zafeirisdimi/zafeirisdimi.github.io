@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 :root {
-	--main-font-color: #fff;
+	--main-font-color: #FFFDFA ;
 	--custom-blue-color: #482ff7;
   }
 /*
@@ -124,7 +124,7 @@ input, select, textarea {
 
 		a:hover {
 			border-color: transparent;
-			color: var(--custom-blue-color);
+			background-color: var(--custom-blue-color);
 		}
 
 /* Icon */
@@ -1084,3 +1084,11 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+		.unordered-style{
+			font-size: smaller;
+			font-weight: lighter;
+			line-height: 1.2rem;
+			text-decoration: underline;
+			margin: 10px 0;
+		}
