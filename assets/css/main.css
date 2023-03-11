@@ -1086,9 +1086,11 @@ input, select, textarea {
 		} }
 
 		.unordered-style{
+			background-color: var(--main-font-color);
 			font-size: smaller;
-			font-weight: lighter;
+			font-weight: bolder;
 			line-height: 1.2rem;
 			text-decoration: underline;
 			margin: 10px 0;
+			color: var(--custom-blue-color);
 		}
