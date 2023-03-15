@@ -1085,11 +1085,8 @@ input, select, textarea {
 		.unordered-style{
 			font-size: smaller;
 			font-weight: bolder;
-			line-height: 1.2rem;
+			line-height: 1.5rem;
 			text-decoration: underline;
 			margin: 10px 0;
 			
-		}
-		.unordered-style > li {
-			color: #482ff7;
 		}
